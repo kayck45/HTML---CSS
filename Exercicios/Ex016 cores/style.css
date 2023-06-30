@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(19, 17, 43);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+#sexo {
+    background-color:rgb(158, 191, 228);
+    text-align: center;
+    color: black;
+}
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
