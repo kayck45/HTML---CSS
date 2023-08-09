@@ -1,0 +1,74 @@
+ @charset "UTF-8";    /* teclado com viadagen */
+/* usar o vimeo tb para pegar videos*/
+
+background          /*color > image > position > repeat > attachement*/
+background-color     /*coloca cor no fundo*/
+background-image    /*coloca imagens de fundo*/
+background-size     /*altera o tamanho da imagem*/
+background-repeat   /*define o quanto ou por onde vc quer repitir*/
+background-position /*define qual parte da imagen vai ser usada primeiro a colunda dps linha*/
+letter-spacing      /*espaço entre linhas*/
+{contain             /*mostra 100% da imagen*/
+{cover               /*preenche a tela inteira*/
+{linear-Gradient     /*extençao para degrade*/
+position            /*define como a propriedade é posicionada*/
+{left                /*altera a distancia da esquerda se o box for absolute*/ 
+{top                 /*altera a distancia de cima se o box for absolute*/
+{transform           /*aplica qualquer alteraçao de transformaçao*/
+{translate           /*mover a div*/
+uppercase            /*transforma todas as letras em maiuscula*/
+background-attachment: fixed; /*fixa a img de fundo */ 
+font-variant:small-caps /*primeira letra maiuscula*/   
+color                /* corzada*/
+display             /*defini como o elemento é tratado */
+{block}             /*trava o elemento, caso o elemento seja inline o block consegue centralizar*/
+
+                        /*  -> FONTES <- */
+text-indent          /*faz o inicio do paragrafo com a quantidade indicada */
+text-align           /*ajeita o texto */
+width                /*largura*/
+padding              /*preenchimento*/
+margin               /*margem, centraliza*/
+font-family          /*adiciona a fonte desejada*/
+font-size            /*tamanho da fonte */
+font-weight          /*peso da fonte, com o maior peso faz o negrito */
+fonte-style          /*estilo da fonte, faz o italico*/
+text-decoration      /*decoraçao de texto, util para fazer sublinhado com underline*/
+font                /*Maozinha;font-style,fonte-weigth,font-size,fonte-family */
+line-height         /*tamanha entre as linhas*/
+
+                    /*      -> SELETORES PERSONALIZADOS <-        */
+#                    /*id,classifica uma tag, só pode ter 1 por codigo*/
+.                    /*class,coloca uma classe na tag ,pode ter varias*/
+
+                /*-------------PSEUDO-CLASSE-------------------*/
+:                    /*pseudo classe,tem q estar relacionada a um elemento ou uma classe,configura o estado*/
+>                    /*clildren, significa que é filho de algo*/
+:hover               /*quando estiver com o mouse por cima*/
+:visited             /*quanto o link ja foi visitado */
+:active              /*durante o momento de click */
+:nth-child()         /*Faz algo durante o numr de linha q escolher*/
+
+                /*-------------PSEUDO-ELEMENTO-------------------*/
+::                   /*Altera o conteudo periferico do elemento */
+::after              /*depois da classe */
+::before             /*antes da classe*/
+
+
+transition-duration  /*Duraçao da trasiçao*/
+box-shadow:          /*sombra no caixa,esquerda,baixa, borrao */
+border-radius:       /*a redonda as bordas*/
+border-width:        /*a largura da borda */
+border-style:        /*Estilo da borda solid é o mais usado*/
+border-color:        /*Cor da borda*/
+border-collapse:     /*junta as bordas de uma tabela*/
+vertical-align:      /*coloca o celula em cima ou em baixo */
+padding-top:         /*parte de cima do preenchimento*/
+padding-botton:      /*Parte de baixo do preenchimento */
+padding-left:        /*Parte de esquerda do preenchimento */
+padding-right:       /*Parte de direita do preenchimento */
+margin:              /*margem, da borda para fora*/
+padding:             /*da borda para dentro*/
+outline:             /*Entre a borda e a margem*/
+columns:             /*indica quantas colunas vc quer colocar nas listas*/
+display: ;

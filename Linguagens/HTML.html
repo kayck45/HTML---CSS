@@ -1,0 +1,78 @@
+
+<head></head>                       <!-- cabeça do site-->
+<body></body>                       <!-- corpo do site-->
+<style></style>                     <!--estilo-->
+<h1></h1> ate <h6></h6>             <!-- título ou headings,h1 para título principal e outro como secundarios -->
+<p></p>               <!-- paragrafos -->
+<br>                  <!-- Quebra de linha ou break hour -->
+
+&lt;                  <!-- = < ou LESS THAN( menor q) -->
+&gt;                  <!-- = > ou GREATER THAN(mair q) -->
+&#x;                  <!-- Emojis-->
+
+ <b></b>              <!-- Destaca uma frase sem semantica-->
+ <strong></strong>    <!-- Negrito com semantica-->
+ <i></i>              <!-- Italico sem semantica-->
+ <em></em>            <!-- Italico com semantica-->
+ <small></small>      <!-- texto pequeno-->
+ <del></del>          <!-- desto descartado-->
+ <ins></ins>          <!-- texto sublinhado-->
+ <sup></sup>          <!-- diminui e deixa no SUPerior-->
+ <sub></sub>          <!-- Diminui e deixa no em baixo-->
+ <code></code>        <!-- deixa a fonte mais espaçada ideal para codigos-->
+ <pre></pre>          <!-- considera todos os caracteres e espaços em um paragrafo-->
+ <q></q>              <!-- citaçao ou quote basicamente abre aspas-->
+ <blockquote></blockquote> <!-- citaçao com deslocamento de linha e possibilita colocar links da fonte com "cite="-->
+ <abbr title=""></abbr>    <!-- coloca o  significado em abreviaçoes-->
+ <bdo dir=""></bdo>        <!-- inverte a frase -->
+
+ <ol></ol>  {type:a,A,1,i,I <!-- lista ordenada-->
+ <ul></ul>  {type:disc,circle,squere <!-- underst list lista nao ordenada-->
+ <li>                      <!-- idens da lista ordenada-->
+ <dl><dl>                  <!-- lista de definiçao (dicionario)-->
+ <dt></dt>                 <!-- termo-->
+ <dd></dd>                 <!-- descriçao-->
+
+ <iframe src="" frameborder="0" name=""></iframe> <!--coloca sites dentro do site,src=link da pg ,frameborder,so aceita 1 ou 0, nem necessario caso utilize o iframe na msm pag -->
+ {srcdoc                           <!--possibilita vc usar html ao inves de um link-->
+ <a href=""></a>                   <!-- A de ancora, href= referencia de hyper text, serve para links em geral-->
+ {target="_blank", target="_self"   <!-- em branco,proprio, abre o link em uma pagina em branco ou na msm pagina --> 
+ {rel="next"                        <!-- proximo, indica que o link é para a próxima parte do documento atual--> 
+ {rel="prev"                        <!-- previl,anterior=indica que o link é para a parte anterior do documento atual--> 
+ {rel="author"                      <!-- indica que é um link para o site do autor do artigo atual--> 
+ {rel="external"                    <!-- indica que é um link para outro site que não faz parte do site-->  
+ {rel="nofollow"                    <!-- indica que é um link para um site não recomendado, como um link pago--> 
+
+ <picture> </picture>              <!-- possibilitar adicionar imagens alternativas di acordo com a largura-->
+ <source>                          <!-- alternativa um arquivo de midia possibilitando alteraçao para a versatilidade-->
+ {media="(min-width: )" srcset="" type="image/" <!-- resolução quando ira mudar para outra imagen,img,png --> 
+  <audio></audio>                   <!-- aúdio né-->
+ {preload=metadata,none,auto        <!-- como o audio sera pre-carregado,carrega apenas informaçoes,nao carrega nada,carrega assim q a pagina é carregada  -->
+ {controls                          <!-- faz com q apareça um player-->
+ {autoplay                           <!-- o audio começa a tocar assim q o cite é carregado-->
+ {loop                               <!-- faz o  audio ficar em loop-->
+  <video></video>                    <!-- vídio né-->
+  poster                             <!-- thumbnail de yt-->
+                                <!--DIVS-->
+<header></header>                  <!-- /*div com semantica de cabeçalho*/-->
+<main></main>                      <!-- /*div com semantica de principal*/-->
+<footer></footer>                  <!-- /*div com semantica de rodapé*/-->
+<nav></nav>                        <!-- /*Seçao com links de navegaçao*/-->
+<section></section>                <!-- /*Seçao*/-->
+<article></article>                <!-- /*Artigo*/-->
+<aside></aside>                    <!-- /*Conteudo levemente relaciondado ao*/-->
+<div></div>                        <!-- /*espaço em branco, div é frequentemente usado como um contêiner para outros elementos */-->
+                      <!-- TABELA -->
+<!--dica para deixar a tabela responsiva:envelopa a tabela como div e em style coloca como overflow:auto ,assim a barra de rolagem ficara na tabela e nao no site-->
+<colgroup></colgroup><!-- agrupa elementos em colunas com a tag col ,utiliza para por estilos em css mais facilmente-->
+<caption></caption><!--Legenda ou titulo da tabela-->
+<table></table>    <!--estrutura da tabela-->
+<thead></thead>    <!--define o cabeçalho da tabela-->
+<tbody></tbody>    <!--corpo da lista-->
+<tfoot></tfoot>    <!--rodapé da tabela-->
+<tr></tr>          <!--linhas da tabela-->
+<td></td>          <!--Dado da tabela-->
+<th></th>          <!--define uma celula de cabeçalho -->
+{scope             <!--indica onde esta os dados do th, nao causa nenhum efeito visal mas ajuda aos mecanimos de busca, col=coluna,row=msm linha--> 
+{rowspan           <!--mesclagem de celula,faz ela ocupar outros lugares-->
+{colspan           <!--col=coluna,row=linha,normalmente é invertido -->
