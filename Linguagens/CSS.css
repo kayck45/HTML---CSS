@@ -4,10 +4,9 @@
 background          /*color > image > position > repeat > attachement*/
 background-color     /*coloca cor no fundo*/
 background-image    /*coloca imagens de fundo*/
-background-size     /*altera o tamanho da imagem*/
 background-repeat   /*define o quanto ou por onde vc quer repitir*/
 background-position /*define qual parte da imagen vai ser usada primeiro a colunda dps linha*/
-letter-spacing      /*espaço entre linhas*/
+background-size     /*altera o tamanho da imagem*/
 {contain             /*mostra 100% da imagen*/
 {cover               /*preenche a tela inteira*/
 {linear-Gradient     /*extençao para degrade*/
@@ -16,7 +15,7 @@ position            /*define como a propriedade é posicionada*/
 {top                 /*altera a distancia de cima se o box for absolute*/
 {transform           /*aplica qualquer alteraçao de transformaçao*/
 {translate           /*mover a div*/
-uppercase            /*transforma todas as letras em maiuscula*/
+
 background-attachment: fixed; /*fixa a img de fundo */ 
 font-variant:small-caps /*primeira letra maiuscula*/   
 color                /* corzada*/
@@ -26,7 +25,7 @@ display             /*defini como o elemento é tratado */
                         /*  -> FONTES <- */
 text-indent          /*faz o inicio do paragrafo com a quantidade indicada */
 text-align           /*ajeita o texto */
-width                /*largura*/
+uppercase            /*transforma todas as letras em maiuscula*/width                /*largura*/
 padding              /*preenchimento*/
 margin               /*margem, centraliza*/
 font-family          /*adiciona a fonte desejada*/
@@ -34,6 +33,7 @@ font-size            /*tamanho da fonte */
 font-weight          /*peso da fonte, com o maior peso faz o negrito */
 fonte-style          /*estilo da fonte, faz o italico*/
 text-decoration      /*decoraçao de texto, util para fazer sublinhado com underline*/
+letter-spacing      /*espaço entre linhas*/
 font                /*Maozinha;font-style,fonte-weigth,font-size,fonte-family */
 line-height         /*tamanha entre as linhas*/
 
