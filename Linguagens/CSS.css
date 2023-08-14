@@ -57,6 +57,7 @@ line-height         /*tamanha entre as linhas*/
 
 transition-duration  /*Duraçao da trasiçao*/
 box-shadow:          /*sombra no caixa,esquerda,baixa, borrao */
+box-sizing: border-box /*faz com q a borda faça parte da caixa*/
 border-radius:       /*a redonda as bordas*/
 border-width:        /*a largura da borda */
 border-style:        /*Estilo da borda solid é o mais usado*/

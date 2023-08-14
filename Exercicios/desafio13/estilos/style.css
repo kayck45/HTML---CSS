@@ -36,5 +36,26 @@ iframe {
 
     border-radius: 10px;
     height: 480px;
-    width: 271px;
+    width: 273px;
+}
+
+section#reds {
+    text-align: right;
+
+}
+
+section#reds img{
+    box-sizing: border-box;
+    width: 75px;
+    margin: 12px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+}
+
+section#reds > a >img:hover {
+    border: 2px solid white;
+    transform: translate(-3px,-3px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.555);
+    transition: transform, .5s;
+    transition: border, .4s;
 }
