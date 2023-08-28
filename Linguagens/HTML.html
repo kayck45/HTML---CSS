@@ -76,3 +76,21 @@
 {scope             <!--indica onde esta os dados do th, nao causa nenhum efeito visal mas ajuda aos mecanimos de busca, col=coluna,row=msm linha--> 
 {rowspan           <!--mesclagem de celula,faz ela ocupar outros lugares-->
 {colspan           <!--col=coluna,row=linha,normalmente é invertido -->
+<!-------------------------------FORMULARISO-------------------------->
+<FORm></FORm>      <!--Caixa de formulario, tipo body-->
+<input >           <!--Caixa de pergunta-->
+<fieldset></fieldset><!--agrupa um formulario-->
+<legend></legend>  <!--legenda né-->
+{text              <!--Texto tipo: nome,sobrenome-->
+{file              <!--deixa o usuario escolher qual arquivo ele ira trazer (obrigatorio o metodo push)-->
+{autocomplete      <!--(dentro do form)desliga a preenchimento rapido de logins nos input,(fora do form) classifica o é colocado no formulario-->
+{action            <!--faz algo quando o botao for apertado -->
+{label             <!--linka o texto com a caixa de texto pelo id-->
+{submit            <!--botao de enviar-->
+{method            <!--forma como os formularios sao enviados pelo GET(mostra na ULR limita a 3mil bits)ou POST(mostra no network do devtools)-->
+{required          <!--torna o campo nesseçario para enviar -->
+{minlegths         <!--quantidade minima de algoritimos necessarios-->
+{maxlegths         <!--quantidade maxima de algoritimos necessarios-->
+{size              <!--mostra quantas letras vao mostrar-->
+{placeholder       <!--dica do q o usuario escrever-->
+{pattern           <!-- define o padrao aceitavel-->

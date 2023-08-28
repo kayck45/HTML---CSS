@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ficha de inscriçao</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="XESQ.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" nome="nome" id="inome" minlength="4" maxlength="20" autocomplete="name" >
+            </p>
+            <p>
+                <labe for="iemal">Email</labe>
+                <input type="email" name="email" id="iemail" autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required placeholder="(12)3456-7891" pattern="/d{4. 5}/d{4}">
+                <!-- estudar sobre RegEx-->
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
