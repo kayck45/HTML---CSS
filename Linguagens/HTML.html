@@ -78,11 +78,17 @@
 {colspan           <!--col=coluna,row=linha,normalmente é invertido -->
 <!-------------------------------FORMULARISO-------------------------->
 <FORm></FORm>      <!--Caixa de formulario, tipo body-->
+<section></section><!-- area de selçao-->
+<option></option>  <!-- abre uma janela com obçoes de escolha tipo o estado-->
+<optgroup></optgroup><!--agrupa os option-->
+<datalist> </datalist><!--cria opçoes para o input, como se fosse um auto complete,tem q linka com o input text -->
+<textarea name="" id="" cols="30" rows="10"></textarea><!-- area de texto como se fosse um reclame aki-->
 <input >           <!--Caixa de pergunta-->
 <fieldset></fieldset><!--agrupa um formulario-->
 <legend></legend>  <!--legenda né-->
 {text              <!--Texto tipo: nome,sobrenome-->
 {file              <!--deixa o usuario escolher qual arquivo ele ira trazer (obrigatorio o metodo push)-->
+{select            <!--o primeiro option selecionado-->
 {autocomplete      <!--(dentro do form)desliga a preenchimento rapido de logins nos input,(fora do form) classifica o é colocado no formulario-->
 {action            <!--faz algo quando o botao for apertado -->
 {label             <!--linka o texto com a caixa de texto pelo id-->

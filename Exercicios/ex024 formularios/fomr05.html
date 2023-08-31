@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fomr</title>
 </head>
 <body>
-    
+    <h1>Exemplo de formulario</h1>
+    <form>
+        <p>
+            <label for="iestado">Estado</label>
+                <select name="estado" id="iestado" >
+                    <option value="" selected>Tuas horigens</option>
+                    <optgroup label="Estadoszada">
+                        <option value="SP">Sampa</option>
+                        <option value="RJ">Ladrão</option>
+                        <option value="MN">Queijo</option>
+                    </optgroup>
+                </select>
+        </p>
+        <p>
+            <label for="ipro">Profissao</label>
+              <input type="text" name="Profissao" id="ipro" list="lispro">
+                <datalist id="lispro">
+                    <option value="adm">administrador</option>
+                    <option value="chef">chef é chef ne pay</option>
+                    <option value="kayck">SER PIKA</option>
+                </datalist>
+        </p>
+        <p>
+            <label for="ireclame">Reclame:</label><br>
+            <textarea name="reclame" id="reclame" cols="40" rows="5"></textarea>
+        </p>
+    </form>
 </body>
 </html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br 
+">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomrulario</title>
+</head>
+<body>
+    <h1>Exemplo de FORMULARIO</h1>
+    
+    <form action="XESQ.php" method="get">
+        <p>
+            <label for="id1">Numero Um:</label>
+            <input type="number" name="n1" id="in1" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="id2">Numero Doix:</label>
+            <input type="number" name="n2" id="in2" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="isoma">SOMAZADA</label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+
+        <p>
+            <label for="inum">Nivel</label>
+            <input type="range" name="sexo" id="inum" min="0" max="10" oninput="ire.innerHTML = Number(inum.value)" value="5">
+            <output id="ire">5 </output>
+        </p>
+
+        <p>
+            <label for="iano">anoZada</label>
+            <input type="number" name="ano" id="iano" oninput="calcidade()" min="1900" max="2023" >
+        </p>
+        <p>
+            <label for="iidade">sua idade é:</label>
+            <output id="iidade">0</output>
+        </p>
+    </form>
+
+    <script>
+        function calcidade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+
+</body>
+
+</html>
