@@ -1,0 +1,28 @@
+@charset "UTF-8" ;
+
+/*ESTli para impressora*/
+
+* {
+    padding: 7px;
+    margin: 7px;
+}
+
+body {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+h2 { 
+    text-align: center;
+}
+
+article::after {
+    content: "es";
+}
+

@@ -31,11 +31,11 @@ margin               /*margem, centraliza*/
 font-family          /*adiciona a fonte desejada*/
 font-size            /*tamanho da fonte */
 font-weight          /*peso da fonte, com o maior peso faz o negrito */
-fonte-style          /*estilo da fonte, faz o italico*/
+font-style          /*estilo da fonte, faz o italico*/
 text-decoration      /*decoraçao de texto, util para fazer sublinhado com underline*/
 letter-spacing      /*espaço entre linhas*/
 font                /*Maozinha;font-style,fonte-weigth,font-size,fonte-family */
-line-height         /*tamanha entre as linhas*/
+line-height         /*tamanha entre altura as linhas*/
 
                     /*      -> SELETORES PERSONALIZADOS <-        */
 #                    /*id,classifica uma tag, só pode ter 1 por codigo*/
@@ -72,3 +72,4 @@ margin:              /*margem, da borda para fora*/
 padding:             /*da borda para dentro*/
 outline:             /*Entre a borda e a margem*/
 columns:             /*indica quantas colunas vc quer colocar nas listas*/
+content: ;           /*permite vc escrever no css*/
