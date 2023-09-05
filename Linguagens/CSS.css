@@ -25,7 +25,8 @@ display             /*defini como o elemento é tratado */
                         /*  -> FONTES <- */
 text-indent          /*faz o inicio do paragrafo com a quantidade indicada */
 text-align           /*ajeita o texto */
-uppercase            /*transforma todas as letras em maiuscula*/width                /*largura*/
+uppercase            /*transforma todas as letras em maiuscula*/
+width                /*largura*/
 padding              /*preenchimento*/
 margin               /*margem, centraliza*/
 font-family          /*adiciona a fonte desejada*/
