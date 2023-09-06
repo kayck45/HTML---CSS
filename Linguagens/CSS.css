@@ -55,7 +55,7 @@ line-height         /*tamanha entre altura as linhas*/
 ::after              /*depois da classe */
 ::before             /*antes da classe*/
 
-
+transition-timing-function: ease; /*define como um animaão é tratada*/
 transition-duration  /*Duraçao da trasiçao*/
 box-shadow:          /*sombra no caixa,esquerda,baixa, borrao */
 box-sizing: border-box /*faz com q a borda faça parte da caixa*/
